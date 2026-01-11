@@ -40,10 +40,3 @@ class Song:
             cls.artist_count[artist] = 1
         else:
             cls.artist_count[artist] += 1
-
-Song1 = Song("Sunday Candy", "Chance the Rapper", "Rap")
-Song2 = Song("Man I need", "Olivia Dean", "Pop")
-Song3 = Song("Sunday In Brooklyn", "Kota the Friend", "Rap")
-Song4 = Song("Colorado", "Kota the Friend", "Lofi")
-
-print(Song.count)
